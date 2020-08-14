@@ -1,5 +1,5 @@
 def position_taken?(board, index)
-  input.to.index-1 
+  index = input
   if board["#{index}"] == (" ") || ("") || nil 
     return FALSE
   else
